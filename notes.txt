@@ -1,0 +1,13 @@
+**********new things in css**********************
+
+background-image: linear gradient to right bottom (sets the color from left to right)
+
+clip-path---------cuts the image in the header
+In natours project there is slight padding in all pages making it more attractive.
+
+******************SCSS************************************************
+donot use pixels instade use rem 
+@mixin ...@include to include helps to reduce the duplicated copy
+function..
+extend..
+16 pixels is the defualt  font-size given by browsers.
