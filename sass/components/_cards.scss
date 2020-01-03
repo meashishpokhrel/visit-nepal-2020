@@ -23,10 +23,10 @@
             transform: rotateY(180deg);
             //**********For Hotels**********************************/
             &-4{
-                background-image: linear-gradient(to right bottom, $color-primary-light,$color-primary-dark);
+                background-image: linear-gradient(to right bottom, $color-tertiary-light,$color-secondary-dark);
             }
             &-5{
-                background-image: linear-gradient(to right bottom, $color-tertiary-light,$color-tertiary-dark);
+                background-image: linear-gradient(to right bottom, $color-primary-light,$color-primary-dark);
             }
             &-6{
                 background-image: linear-gradient(to right bottom, $color-secondary-light,$color-secondary-dark);
@@ -74,17 +74,17 @@
 
         //***************for hotels************************/
             &--4{
-            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark)
-            ,url(../img/test/nat-5.jpg);
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-secondary-dark)
+            ,url(../../img/hyatt-hotel.png);
             }
             &--5{
                 background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark)
-            ,url(../img/test/nat-6.jpg);
+            ,url(../../img/soaltee-crown-plaza.jpg);
     
             }
             &--6{
-                background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark)
-            ,url(../img/test/nat-7.jpg);
+                background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-primary-dark)
+            ,url(../../img/raddison-hotel.jpeg);
             }
     }
     &__heading{
@@ -103,7 +103,7 @@
         padding: 1rem 1.5rem;
         -webkit-box-decoration-break: clone;
         box-decoration-break: clone;
-        
+        //*********for packages****************//
         &--1{
             background-image: linear-gradient(to right bottom,rgba( $color-primary-light,.85), rgba($color-primary-dark,.85));
         }
@@ -112,6 +112,17 @@
         }
         &--3{
             background-image: linear-gradient(to right bottom,rgba( $color-secondary-light,.85), rgba($color-secondary-dark,.85));
+        }
+
+        //***********for Hotels********************//
+        &--4{
+            background-image: linear-gradient(to right bottom,rgba( $color-tertiary-light,.85), rgba($color-primary-dark,.85));
+        }
+        &--5{
+            background-image: linear-gradient(to right bottom,rgba( $color-primary-light,.85), rgba($color-primary-dark,.85));
+        }
+        &--6{
+            background-image: linear-gradient(to right bottom,rgba( $color-tertiary-light,.85), rgba($color-primary-dark,.85));
         }
     }
     &__details{
