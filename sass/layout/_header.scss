@@ -1,6 +1,9 @@
 .header{
+    margin-top: -3rem;
+    //margin-bottom: 3rem;
     padding-top: 0;
-    height: 95vh;
+    //padding-bottom: -3rem;
+    height: 100vh;
     background-image: linear-gradient(
         to bottom right,
         rgba($color-primary-light, 0.644),
@@ -10,7 +13,7 @@
     background-position: top;
     position: relative;
     //clip-path: polygon(0 0,100% 0,100%  100%, 0 100%);
-    clip-path: polygon(50% 0%, 100% 0, 100% 92%, 50% 100%, 0 92%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%, 0 0);
 
 
     &__logo-box{
@@ -27,7 +30,7 @@
         position: absolute;
         top: 40%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%,-20%);
         text-align: center;
     }
 }

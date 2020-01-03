@@ -21,6 +21,17 @@
         }
         &--back{
             transform: rotateY(180deg);
+            //**********For Hotels**********************************/
+            &-4{
+                background-image: linear-gradient(to right bottom, $color-primary-light,$color-primary-dark);
+            }
+            &-5{
+                background-image: linear-gradient(to right bottom, $color-tertiary-light,$color-tertiary-dark);
+            }
+            &-6{
+                background-image: linear-gradient(to right bottom, $color-secondary-light,$color-secondary-dark);
+            }
+            //**************For packages*********************/
             &-1{
                 background-image: linear-gradient(to right bottom, $color-primary-light,$color-primary-dark);
             }
@@ -30,7 +41,6 @@
             &-3{
                 background-image: linear-gradient(to right bottom, $color-secondary-light,$color-secondary-dark);
             }
-
         }
     }
 
@@ -47,6 +57,7 @@
         background-blend-mode: screen;
         -webkit-clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
         clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+        //*************for packages******************////
         &--3{
         background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark)
         ,url(../img/test/nat-5.jpg);
@@ -60,6 +71,21 @@
             background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark)
         ,url(../img/test/nat-7.jpg);
         }
+
+        //***************for hotels************************/
+            &--4{
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark)
+            ,url(../img/test/nat-5.jpg);
+            }
+            &--5{
+                background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark)
+            ,url(../img/test/nat-6.jpg);
+    
+            }
+            &--6{
+                background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark)
+            ,url(../img/test/nat-7.jpg);
+            }
     }
     &__heading{
         text-transform: uppercase;
