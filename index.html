@@ -7,12 +7,22 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/icon-font.css">
     <link rel="stylesheet" href="css/icon-font.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <title>Visit Nepal 2020</title>
 </head>
 <body>
     <header class="header">
+        <div class="bg-video--1">
+            <video class="bg-video__content" autoplay loop muted>
+                <source src="img/visit-nepal-final.mp4" type="video/mp4">
+                <!--<source src="img/test/video.webm" type="video/webm">-->
+                    Your format is not supported
+            </video>
+        </div>
+
+        </div>
         <div class="header__logo-box">
             <img src="img/logo.png" alt="logo" class="header__logo">
         </div>
@@ -203,26 +213,109 @@
             </section>
 
             <section class="section-reviews">
+                <div class="bg-video">
+                    <video class="bg-video__content" autoplay loop muted>
+                        <source src="img/test/video.mp4" type="video/mp4">
+                        <source src="img/test/video.webm" type="video/webm">
+                            Your format is not supported
+                    </video>
+                </div>
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">What people say about us!!!</h2>
                 </div>
                 <div class="row">
                     <div class="reviews">
                         <figure class="reviews__shape">
-                            <img src="img/test/nat-8.jpg" alt="photo for review" class="reviews__img">
-                            <figcaption class="reviews__caption">Ashish Pokhrel</figcaption>
+                            <img src="img/review 1.jpg" alt="photo for review" class="reviews__img">
+                            <figcaption class="reviews__caption">Emily Kutcher</figcaption>
                         </figure>
                         <div class="reviews__text">
                             <h3 class="heading-tertiary u-margin-bottom-small">Thanks to this site I can say i Explored nepal perfectly</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione hic repellat autem quidem officiis explicabo magni quas minima! Enim perferendis mollitia consequatur ullam repellat consequuntur quas voluptatum nesciunt quidem error.</p>
                         </div>
                     </div>
-                    
+                </div>
+
+                <div class="row">
+                    <div class="reviews">
+                        <figure class="reviews__shape">
+                            <img src="img/ashton kutcher.jpg" alt="photo for review" class="reviews__img">
+                            <figcaption class="reviews__caption">David Williams</figcaption>
+                        </figure>
+                        <div class="reviews__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">I found perfect adventures and place in nepal for me</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione hic repellat autem quidem officiis explicabo magni quas minima! Enim perferendis mollitia consequatur ullam repellat consequuntur quas voluptatum nesciunt quidem error.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="u-center-text u-margin-top-huge">
+                    <a href="#" class="btn-text">More Reviews &rarr;</a>
                 </div>
             </section>
 
-        
+            <section class="section-book">
+                <div class="row">
+                        <div class="book">
+                            <form action="#" class="book__form">
+
+                                <div class="u-center-text u-margin-bottom-medium">
+                                    <h2 class="heading-secondary"> Book NOw!!!</h2>
+                                </div>
+
+                                <div class="form__group">
+                                    <input type="text" class="form__input" placeholder="Username" id="username" required>
+                                    <label for="username" class="form__label" >Username</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <input type="email" placeholder="Email Address" class="form__input" id="email" required>
+                                    <label for="email" class="form__label" >Email Address</label>
+                                </div>
+
+                                <div class="form__group">
+                                    <button class="btn btn--green">Login</button>
+                                </div>
+
+                                <div class="form__group">
+                                    <span class="form__register-text"> New to Our Website?</span><a href="#" class="btn-text">Register Now &rarr;</a>
+                                </div>
+                            </form>
+                        </div>
+
+                </div>
+            </section>
     </main>
+    <footer class="footer">
+        <div class="footer__logo-box">
+            <img src="img/logo.png" alt="visit nepal 2020" class="footer__logo">
+        </div>
+        <div class="row">
+            <div class="footer__navigation">
+                <div class="col-1-of-2">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">About us</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">About Nepal</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-1-of-2">
+                    <ul class="footer__list footer__list--2">
+                        <li class="footer__item"><a href="#" class="footer__link footer__link--2"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li class="footer__item"><a href="#" class="footer__link footer__link--2"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li class="footer__item"><a href="#" class="footer__link footer__link--2"><ion-icon name="logo-github"></ion-icon></a></li>
+                        <li class="footer__item"><a href="#" class="footer__link footer__link--2"><ion-icon name="mail"></ion-icon></a></li>
+                        <li class="footer__item"><a href="#" class="footer__link footer__link--2"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="footer__copyright">
+                <p>Copyright &copy; Yatra Nepal,Visit Nepal 2020</p>
+            </div>
+        
+    </footer>
     <!--
         <section class="grid-test">
             <div class="row">

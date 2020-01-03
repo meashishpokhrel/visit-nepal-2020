@@ -1,14 +1,17 @@
 .header{
+    padding-top: 0;
     height: 95vh;
     background-image: linear-gradient(
         to bottom right,
         rgba($color-primary-light, 0.644),
-        rgba($color-primary-dark, 0.658) ),
-    url("../img/front\ page\ 3.JPG");
+        rgba($color-primary-dark, 0.658) );
+    //url("../img/front\ page\ 3.JPG");
     background-size: cover;
     background-position: top;
     position: relative;
-    clip-path: polygon(0 0,100% 0,100%  75vh, 0 100%);
+    //clip-path: polygon(0 0,100% 0,100%  100%, 0 100%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 92%, 50% 100%, 0 92%, 0 0);
+
 
     &__logo-box{
         position: absolute;
