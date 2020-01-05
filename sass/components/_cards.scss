@@ -86,6 +86,11 @@
                 background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-primary-dark)
             ,url(../../img/raddison-hotel.jpeg);
             }
+            //************for profile**********************/
+            &--profile{
+                background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-primary-dark)
+            ,url(../../img/ashish_review.jpg);
+            }
     }
     &__heading{
         text-transform: uppercase;

@@ -135,3 +135,40 @@
             width: 50%;
         }
     }
+
+    .section-profile{
+        padding: 15rem 0 15rem 0;
+        background-image: linear-gradient($color-tertiary-light,$color-primary-light);
+        transform: skewY(-7deg);
+        & > *{
+            transform: skewY(7deg);
+        }
+    }
+    .profile{
+        position: relative;
+        height: 65rem;
+        background-image:linear-gradient(105deg,rgba($color-white,.9) 40%,transparent 55%) ,
+                        url(../../img/profile-section.jpg);
+        background-size: cover;
+        border-radius: .3rem;
+        box-shadow: 0 3rem 4rem rgba($color-black,.5);
+        transition: all .2s;
+    
+        &__form{
+            padding: 6rem;
+            width: 30%;
+        }
+        &__img-box{
+            position: absolute;
+            top: 12rem;
+            right: 10rem;
+        }
+        &__img{
+            width: 30rem;
+            height: auto;
+            border-radius: .7rem;
+            box-shadow: 0 12rem 50rem rgba($color-black,.8);
+            //transform: skewX(80deg);
+            
+        }
+    }

@@ -243,6 +243,8 @@ body {
       background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../../img/soaltee-crown-plaza.jpg); }
     .cards__picture--6 {
       background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/raddison-hotel.jpeg); }
+    .cards__picture--profile {
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/ashish_review.jpg); }
   .cards__heading {
     text-transform: uppercase;
     font-size: 2.8rem;
@@ -697,6 +699,34 @@ body {
   .register__form {
     padding: 6rem;
     width: 50%; }
+
+.section-profile {
+  padding: 15rem 0 15rem 0;
+  background-image: linear-gradient(#2998ff, #7ed56f);
+  transform: skewY(-7deg); }
+  .section-profile > * {
+    transform: skewY(7deg); }
+
+.profile {
+  position: relative;
+  height: 65rem;
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 40%, transparent 55%), url(../../img/profile-section.jpg);
+  background-size: cover;
+  border-radius: .3rem;
+  box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.5);
+  transition: all .2s; }
+  .profile__form {
+    padding: 6rem;
+    width: 30%; }
+  .profile__img-box {
+    position: absolute;
+    top: 12rem;
+    right: 10rem; }
+  .profile__img {
+    width: 30rem;
+    height: auto;
+    border-radius: .7rem;
+    box-shadow: 0 12rem 50rem rgba(0, 0, 0, 0.8); }
 
 /*
 COLORS:
