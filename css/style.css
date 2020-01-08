@@ -162,6 +162,11 @@ body {
   .btn--green::after {
     background-color: #55c57a; }
 
+.btn--detail {
+  color: #fff; }
+  .btn--detail::after {
+    background-color: #55c57a; }
+
 .btn::after {
   content: "";
   display: inline-block;
@@ -194,6 +199,25 @@ body {
   transform: translateY(-0.2rem); }
 
 .btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0); }
+
+.btn-text-white:link, .btn-text-white:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  display: inline-block;
+  color: #fff;
+  border-bottom: 0.1rem solid #fff;
+  padding: .3rem;
+  transition: all .2s; }
+
+.btn-text-white:hover {
+  background-color: #55c57a;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-0.2rem); }
+
+.btn-text-white:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
 
@@ -537,6 +561,12 @@ body {
     background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/jungle-safari-2.jpg"); }
   .detail--6 {
     background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/treeking-1.jpeg"); }
+  .detail--7 {
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/hyatt-3.jpg"); }
+  .detail--8 {
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/soaltee-crown-plaza.jpg"); }
+  .detail--9 {
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/raddison-2.jpg"); }
   .detail__logo-box {
     position: absolute;
     top: 3.0rem;
@@ -600,6 +630,20 @@ body {
 .detail__icons {
   font-size: 2rem;
   text-align: center; }
+
+/**********For bottom book now box**********/
+.book-now-box {
+  background-color: #eee;
+  width: 65%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 3rem;
+  box-shadow: 0 6rem 8rem rgba(0, 0, 0, 0.2);
+  padding: 5rem;
+  margin-bottom: 5rem; }
+  .book-now-box__link {
+    float: right;
+    margin-top: -6rem; }
 
 .header {
   margin-top: -3rem;
@@ -847,6 +891,9 @@ body {
     height: auto;
     border-radius: .7rem;
     box-shadow: 0 12rem 50rem rgba(0, 0, 0, 0.8); }
+
+.section-detail {
+  background-color: #fff; }
 
 .detail-text {
   padding: 5rem 0; }

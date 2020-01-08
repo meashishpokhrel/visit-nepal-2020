@@ -48,6 +48,14 @@
             background-color: $color-primary;
         }
     }
+    &--detail{
+        color: $color-white;
+        //background-color: $color-primary;
+
+        &::after{
+            background-color: $color-primary;
+        }
+    }
     &::after{
         content: "";
         display: inline-block;
@@ -76,6 +84,29 @@
     padding: .3rem;    
     transition: all .2s;
     }
+   
+    &:hover{
+        background-color: $color-primary;
+        color: $color-white;
+        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        transform: translateY(-.2rem);;
+    }
+    &:active{
+        box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+        transform: translateY(0);
+    }
+}
+.btn-text-white{
+    &:link,&:visited{
+    text-decoration: none;
+    font-size: $default-font-size;
+    display: inline-block;
+    color: $color-white;
+    border-bottom: .1rem solid $color-white;
+    padding: .3rem;    
+    transition: all .2s;
+    }
+   
     &:hover{
         background-color: $color-primary;
         color: $color-white;
