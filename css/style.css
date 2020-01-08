@@ -51,6 +51,10 @@ body {
     display: block;
     letter-spacing: .6rem;
     animation: moveInRight 1s ease-out; }
+  .heading-primary--detail {
+    font-size: 6.5rem;
+    font-weight: 300;
+    display: block; }
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -73,6 +77,8 @@ body {
   .heading-secondary:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .heading-secondary--big {
+    font-size: 2.25rem; }
 
 .heading-tertiary {
   font-size: 1.6rem;
@@ -83,6 +89,8 @@ body {
   font-size: 1.6rem; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
+  .paragraph--justified {
+    text-align: justify; }
 
 .u-center-text {
   text-align: center; }
@@ -283,6 +291,10 @@ body {
       text-align: center; }
       .cards__details li:not(:last-child) {
         border-bottom: 1px solid #eee; }
+      .cards__details li ion-icon {
+        font-size: 3rem;
+        margin-right: 2rem;
+        margin-bottom: -0.7rem; }
   .cards__cta {
     position: absolute;
     top: 50%;
@@ -365,6 +377,16 @@ body {
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.14);
   transform: skewX(-12deg);
   backface-visibility: hidden; }
+  .reviews--detail {
+    width: 30%;
+    float: left;
+    margin: 0 auto;
+    margin-right: 3rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 6rem;
+    padding-left: 9rem;
+    font-size: 1.6rem;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.14); }
   .reviews > * {
     transform: skewX(12deg); }
   .reviews__shape {
@@ -379,6 +401,9 @@ body {
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
     backface-visibility: hidden; }
+    .reviews__shape--detail {
+      float: none;
+      margin: 0 auto; }
   .reviews__img {
     height: 100%;
     transform: translateX(-3rem) scale(1.4);
@@ -386,6 +411,10 @@ body {
     transition: all .3s; }
   .reviews__text {
     transform: skewX(12deg); }
+    .reviews__text--detail {
+      text-align: justify;
+      margin-top: 5rem;
+      margin-bottom: 2rem; }
   .reviews__caption {
     font-size: 1.6rem;
     position: absolute;
@@ -406,6 +435,12 @@ body {
     transform: translateX(-3rem) scale(1);
     filter: blur(0.3rem) brightness(80%);
     backface-visibility: hidden; }
+  .reviews__star {
+    text-align: center; }
+
+/********For detail section***********/
+.checked {
+  color: orange; }
 
 .bg-video {
   position: absolute;
@@ -480,6 +515,85 @@ body {
     padding: 3rem; }
   .crawl__list {
     padding: 3rem; }
+
+.detail {
+  padding-top: 0;
+  height: 70vh;
+  background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/gosaikunda.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(50% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%, 0 0);
+  /*****for list**/ }
+  .detail--1 {
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/gosaikunda.jpg"); }
+  .detail--2 {
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/mustang.jpg"); }
+  .detail--3 {
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/khumbu.jpg"); }
+  .detail__logo-box {
+    position: absolute;
+    top: 3.0rem;
+    left: 3.0rem; }
+  .detail__logo {
+    height: 12.0rem; }
+  .detail__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    text-align: center; }
+  .detail__img {
+    float: left;
+    width: 48.5rem;
+    height: auto;
+    object-fit: cover;
+    display: block; }
+
+.about {
+  background-color: #55c57a; }
+
+/* ----------------------------------------------- */
+/* Detail Pictures (named as meals) */
+/* ----------------------------------------------- */
+.section-meals {
+  padding: 0; }
+
+.meals-showcase {
+  list-style: none;
+  width: 100%; }
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 33%; }
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000; }
+
+.meal-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: 35rem;
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s; }
+
+.meal-photo img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03); }
+
+/************for to do**************/
+.detail__icons {
+  font-size: 2rem;
+  text-align: center; }
 
 .header {
   margin-top: -3rem;
@@ -727,6 +841,13 @@ body {
     height: auto;
     border-radius: .7rem;
     box-shadow: 0 12rem 50rem rgba(0, 0, 0, 0.8); }
+
+.detail-text {
+  padding: 5rem 0; }
+
+.detail-ratings {
+  padding-top: 45rem;
+  padding-bottom: 15rem; }
 
 /*
 COLORS:

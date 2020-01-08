@@ -142,10 +142,16 @@
             padding: 1rem;
             font-size: 1.5rem;
             text-align: center;
+
         
         &:not(:last-child){
             border-bottom: 1px solid $color-grey-light-2;
             }
+        ion-icon{
+            font-size: 3rem;
+            margin-right: 2rem;
+            margin-bottom: -0.7rem;
+        }
         }
     }
     //*******Backside design 
