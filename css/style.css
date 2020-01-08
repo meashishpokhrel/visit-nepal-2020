@@ -567,6 +567,12 @@ body {
     background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/soaltee-crown-plaza.jpg"); }
   .detail--9 {
     background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/raddison-2.jpg"); }
+  .detail--10 {
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/jungle-safari-3.jpg"); }
+  .detail--11 {
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/treeking-2.jpg"); }
+  .detail--12 {
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/khumbu-3.jpg"); }
   .detail__logo-box {
     position: absolute;
     top: 3.0rem;
@@ -585,6 +591,10 @@ body {
     height: auto;
     object-fit: cover;
     display: block; }
+  .detail__tour-guide {
+    height: 5rem;
+    border-radius: 50%;
+    margin-bottom: -1rem; }
 
 .about {
   background-color: #55c57a; }

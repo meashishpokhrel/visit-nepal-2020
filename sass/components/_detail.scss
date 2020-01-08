@@ -85,6 +85,28 @@
     url("../../img/raddison-2.jpg");
     }
 
+    &--10{  
+        background-image: linear-gradient(
+        to bottom right,
+        rgba($color-primary-light, 0.6),
+        rgba($color-tertiary-dark, 0.6) ),
+    url("../../img/jungle-safari-3.jpg");
+    }
+    &--11{  
+        background-image: linear-gradient(
+        to bottom right,
+        rgba($color-primary-light, 0.6),
+        rgba($color-tertiary-dark, 0.6) ),
+    url("../../img/treeking-2.jpg");
+    }
+    &--12{  
+        background-image: linear-gradient(
+        to bottom right,
+        rgba($color-primary-light, 0.6),
+        rgba($color-tertiary-dark, 0.6) ),
+    url("../../img/khumbu-3.jpg");
+    }
+
 
     
 
@@ -120,6 +142,11 @@
         object-fit: cover;
         display: block;
         
+    }
+    &__tour-guide{
+        height: 5rem;
+        border-radius: 50%;
+        margin-bottom: -1rem;
     }
     /*****for list**/
     
