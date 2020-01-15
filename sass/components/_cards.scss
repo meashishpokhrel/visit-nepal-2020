@@ -91,6 +91,21 @@
                 background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-primary-dark)
             ,url(../../img/ashish_review.jpg);
             }
+
+           //************for more cards**********************/
+           &--7{
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-primary-dark)
+        ,url(../../img/swim.jpg);
+        }
+        &--8{
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-primary-dark)
+        ,url(../../img/jungle-safari-2.jpg);
+        }
+        &--9{
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-primary-dark)
+        ,url(../../img/treeking-3.jpg);
+        }
+
     }
     &__heading{
         text-transform: uppercase;

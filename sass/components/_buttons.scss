@@ -48,6 +48,16 @@
             background-color: $color-primary;
         }
     }
+
+    &--card-detail{
+        color: $color-grey-dark;
+        background-color: $color-grey-light-1;
+
+        &::after{
+            background-color: $color-grey-light-1;
+        }
+    }
+
     &--detail{
         color: $color-white;
         //background-color: $color-primary;

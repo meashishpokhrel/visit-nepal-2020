@@ -14,24 +14,16 @@
     <title>Visit Nepal 2020</title>
 </head>
 <body>
-   
     
-
+    
+   
 
     <header class="header">
-        
-        <div class="bg-video--1">
-            <video class="bg-video__content" autoplay loop muted>
-                <source src="img/visit-nepal-final.mp4" type="video/mp4">
-                <!--<source src="img/test/video.webm" type="video/webm">-->
-                    Your format is not supported
-            </video>
-        </div>
-
-        <nav class="nav-bar">
+        <nav>
             <div class="row">
-                    <img src="img/logo.png" alt="logo" class="nav-bar__logo">
-                    <ul class="nav-bar__titles">
+                    <img src="img/logo.png" alt="logo" class="logo">
+                    <img src="img/logo.png" alt="logo-black" class="logo-black">
+                    <ul class="main-nav">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Features</a></li>
                         <li><a href="#">Adventures</a></li>
@@ -41,7 +33,14 @@
                     </ul>
             </div>
         </nav>
-
+        <div class="bg-video--1">
+            <video class="bg-video__content" autoplay loop muted>
+                <source src="img/visit-nepal-final.mp4" type="video/mp4">
+                <!--<source src="img/test/video.webm" type="video/webm">-->
+                    Your format is not supported
+            </video>
+        </div>
+    
         <div class="header__text-box">
             <h1 class="heading-primary">
                 <span class="heading-primary--main">Travel</span>
@@ -49,10 +48,10 @@
               </h1>
               <a href="#" class="btn btn--white btn--animated">Discover Nepal</a>  
         </div>
-    </header> 
-    <main>
+    </header>
 
-        <section class="section-news">
+
+        <section class="section-news js--section-news">
             <div class="u-center-text u-margin-bottom-medium">
                 <h2 class="heading-secondary"> News and Events</h2>
             </div>
@@ -259,7 +258,7 @@
                     </div>
                 </div>
                 <div class="u-center-text u-margin-top-huge">
-                    <a href="#" class="btn btn--green">Show More Hotels</a>
+                    <a href="pages/hotels/more-hotels.html" class="btn btn--green">Show More Hotels</a>
                 </div>   
             </section>
 
@@ -410,7 +409,7 @@
                     </div>
                 </div>
                 <div class="u-center-text u-margin-top-huge">
-                    <a href="#" class="btn btn--green">More Packages</a>
+                    <a href="pages/packages/more-packages.html" class="btn btn--green">More Packages</a>
                 </div>   
             </section>
 
@@ -551,7 +550,7 @@
 
                 </div>
             </section>
-    </main>
+    
     <footer class="footer">
         <div class="footer__logo-box">
             <img src="img/logo.png" alt="visit nepal 2020" class="footer__logo">
@@ -652,6 +651,8 @@
             </div>
         </section>
         -->
-    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/script.js"></script>
 </body>
 </html>

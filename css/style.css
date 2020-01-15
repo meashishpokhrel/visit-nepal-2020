@@ -113,6 +113,12 @@ body {
 .u-margin-reduce-top-medium {
   margin-top: -4rem; }
 
+.u-padding-bottom-big {
+  padding-bottom: 8rem; }
+
+.u-padding-bottom-medium {
+  padding-bottom: 4rem; }
+
 *,
 *::before,
 *::after {
@@ -161,6 +167,12 @@ body {
   background-color: #55c57a; }
   .btn--green::after {
     background-color: #55c57a; }
+
+.btn--card-detail {
+  color: #777;
+  background-color: #f7f7f7; }
+  .btn--card-detail::after {
+    background-color: #f7f7f7; }
 
 .btn--detail {
   color: #fff; }
@@ -277,6 +289,12 @@ body {
       background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/raddison-hotel.jpeg); }
     .cards__picture--profile {
       background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/ashish_review.jpg); }
+    .cards__picture--7 {
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/swim.jpg); }
+    .cards__picture--8 {
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/jungle-safari-2.jpg); }
+    .cards__picture--9 {
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/treeking-3.jpg); }
   .cards__heading {
     text-transform: uppercase;
     font-size: 2.8rem;
@@ -740,35 +758,65 @@ body {
     text-align: center;
     color: #55c57a; }
 
-.nav-bar {
-  padding-top: 3rem; }
-  .nav-bar__logo {
-    height: 8rem;
-    width: auto;
-    float: left; }
-  .nav-bar__titles {
-    list-style: none;
-    float: right; }
-    .nav-bar__titles li {
-      display: inline-block;
-      margin-left: 4rem;
-      transition: all .3s; }
-      .nav-bar__titles li a:link,
-      .nav-bar__titles li a:visited {
-        color: #fff;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-family: inherit;
-        font-size: 1.8rem;
-        padding-bottom: .5rem; }
-      .nav-bar__titles li a:hover,
-      .nav-bar__titles li a:active {
-        border-bottom: 0.25rem solid #ff7730;
-        box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.15); }
+.logo {
+  height: 10rem;
+  width: auto;
+  float: left;
+  margin-top: 20px; }
 
-/********For sticky *******************/
+.logo-black {
+  display: none;
+  height: 7rem;
+  width: auto;
+  float: left; }
+
+/* Main navi */
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 5.5rem; }
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 4rem; }
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: .8rem 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s; }
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #e67e22; }
+
 .sticky {
-  position: fixed; }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 2px 2px #efefef;
+  z-index: 9999999999999; }
+
+.sticky .main-nav {
+  margin-top: 18px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 16px 0;
+  color: #555; }
+
+.sticky .logo {
+  display: none; }
+
+.sticky .logo-black {
+  display: block; }
 
 .section-news {
   padding: 25rem 0;
@@ -904,6 +952,8 @@ body {
 
 .section-detail {
   background-color: #fff; }
+  .section-detail--more-cards {
+    background-color: #f7f7f7; }
 
 .detail-text {
   padding: 5rem 0; }

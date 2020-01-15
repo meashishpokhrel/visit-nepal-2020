@@ -13,6 +13,8 @@
     background-position: top;
     position: relative;
     //clip-path: polygon(0 0,100% 0,100%  100%, 0 100%);
+    //-webkit-    clip-path: polygon(50% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%, 0 0);
+
     clip-path: polygon(50% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%, 0 0);
 
 
