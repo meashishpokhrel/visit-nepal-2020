@@ -113,6 +113,12 @@ body {
 .u-margin-right-medium {
   margin-right: 4rem; }
 
+.u-margin-left-big {
+  margin-left: 8rem; }
+
+.u-margin-left-large {
+  margin-left: 14rem; }
+
 .u-margin-reduce-top-medium {
   margin-top: -4rem; }
 
@@ -689,6 +695,12 @@ button span:before, button span:after
   background-color: rgba(255, 255, 255, 0.5);
   width: 80%;
   border-bottom: .3rem solid transparent; }
+  .form__input--connect {
+    width: 80%;
+    border-radius: 2rem;
+    background-color: rgba(153, 153, 153, 0.5);
+    font-size: 2rem;
+    cursor: pointer; }
   .form__input::-webkit-input-placeholder {
     color: #55c57a; }
   .form__input:focus {
@@ -705,6 +717,9 @@ button span:before, button span:after
   margin-left: 2rem;
   font-weight: 700;
   transition: all .3s; }
+  .form__label--connect {
+    font-size: 2rem;
+    margin-left: -20rem; }
 
 .form__input:placeholder-shown + .form__label {
   opacity: 0;

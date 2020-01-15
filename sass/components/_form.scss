@@ -15,9 +15,16 @@
         background-color: rgba($color-white,.5);
         width: 80%;
         border-bottom: .3rem solid transparent;
-
+        &--connect{
+            width: 80%;
+            border-radius: 2rem;
+            background-color: rgba($color-grey-dark-2,.5);
+            font-size: 2rem;
+            cursor: pointer;
+        }
         &::-webkit-input-placeholder{
             color: $color-primary;
+           
         }
         &:focus{
             outline: none;
@@ -36,6 +43,10 @@
         margin-left: 2rem;
         font-weight: 700;
         transition: all .3s;
+        &--connect{
+            font-size: 2rem;
+            margin-left: -20rem;
+        }
     }
     &__input:placeholder-shown + &__label{
         opacity: 0;
