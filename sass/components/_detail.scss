@@ -106,6 +106,13 @@
         rgba($color-tertiary-dark, 0.6) ),
     url("../../img/khumbu-3.jpg");
     }
+    &--12{  
+        background-image: linear-gradient(
+        to bottom right,
+        rgba($color-primary-light, 0.6),
+        rgba($color-tertiary-dark, 0.6) ),
+    url("../../img/connect.jpg");
+    }
 
 
     
