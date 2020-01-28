@@ -452,31 +452,31 @@ button span:before, button span:after
     .cards__picture--2 {
       background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/test/nat-7.jpg); }
     .cards__picture--4 {
-      background-image: linear-gradient(to right bottom, #2998ff, #ff7730), url(../../img/hyatt-hotel.png); }
+      background-image: linear-gradient(to right bottom, #2998ff, #ff7730), url(../img/hyatt-hotel.png); }
     .cards__picture--5 {
-      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../../img/soaltee-crown-plaza.jpg); }
+      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/soaltee-crown-plaza.jpg); }
     .cards__picture--6 {
-      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/raddison-hotel.jpeg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../img/raddison-hotel.jpeg); }
     .cards__picture--profile {
-      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/ashish_review.jpg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../img/ashish_review.jpg); }
     .cards__picture--7 {
-      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/swim.jpg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../img/swim.jpg); }
     .cards__picture--8 {
-      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/jungle-safari-2.jpg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../img/jungle-safari-2.jpg); }
     .cards__picture--9 {
-      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/treeking-3.jpg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../img/treeking-3.jpg); }
     .cards__picture--10 {
-      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/rafting-2.jpg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../img/rafting-2.jpg); }
     .cards__picture--11 {
-      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/jungle-safari-2.jpg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../img/jungle-safari-2.jpg); }
     .cards__picture--12 {
-      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/treeking-3.jpg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../img/treeking-3.jpg); }
     .cards__picture--13 {
-      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/cannoying.png); }
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../img/cannoying.png); }
     .cards__picture--14 {
-      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/bungee.jpg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../img/bungee.jpg); }
     .cards__picture--15 {
-      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../../img/mountainbike.jpg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #28b485), url(../img/mountainbike.jpg); }
   .cards__heading {
     text-transform: uppercase;
     font-size: 2.8rem;
@@ -759,31 +759,31 @@ button span:before, button span:after
   clip-path: polygon(50% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%, 0 0);
   /*****for list**/ }
   .detail--1 {
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/gosaikunda.jpg"); }
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../img/gosaikunda.jpg"); }
   .detail--2 {
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/mustang.jpg"); }
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../img/mustang.jpg"); }
   .detail--3 {
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/khumbu.jpg"); }
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../img/khumbu.jpg"); }
   .detail--4 {
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/animation pic2.jpeg"); }
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../img/animation pic2.jpeg"); }
   .detail--5 {
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/jungle-safari-2.jpg"); }
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../img/jungle-safari-2.jpg"); }
   .detail--6 {
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/treeking-1.jpeg"); }
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../img/treeking-1.jpeg"); }
   .detail--7 {
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/hyatt-3.jpg"); }
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../img/hyatt-3.jpg"); }
   .detail--8 {
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/soaltee-crown-plaza.jpg"); }
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../img/soaltee-crown-plaza.jpg"); }
   .detail--9 {
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/raddison-2.jpg"); }
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../img/raddison-2.jpg"); }
   .detail--10 {
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/jungle-safari-3.jpg"); }
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../img/jungle-safari-3.jpg"); }
   .detail--11 {
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/treeking-2.jpg"); }
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../img/treeking-2.jpg"); }
   .detail--12 {
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/khumbu-3.jpg"); }
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../img/khumbu-3.jpg"); }
   .detail--12 {
-    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../../img/connect.jpg"); }
+    background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.6), rgba(86, 67, 250, 0.6)), url("../img/connect.jpg"); }
   .detail__logo-box {
     position: absolute;
     top: 3.0rem;
@@ -1019,7 +1019,7 @@ button span:before, button span:after
 
 .news {
   height: 50rem;
-  background-image: linear-gradient(105deg, transparent 40%, rgba(255, 255, 255, 0.9) 20%), url(../../img/news-events.jpg);
+  background-image: linear-gradient(105deg, transparent 40%, rgba(255, 255, 255, 0.9) 20%), url(../img/news-events.jpg);
   background-size: cover;
   border-radius: .3rem;
   box-shadow: 0 8rem 8rem rgba(0, 0, 0, 0.5); }
@@ -1071,7 +1071,7 @@ button span:before, button span:after
 
 .connect {
   height: 50rem;
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 40%, transparent 50%), url(../../img/connect.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 40%, transparent 50%), url(../img/connect.jpg);
   background-size: cover;
   border-radius: .3rem;
   box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.5); }
@@ -1128,7 +1128,7 @@ button span:before, button span:after
 .profile {
   position: relative;
   height: 65rem;
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 40%, transparent 55%), url(../../img/profile-section.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 40%, transparent 55%), url(../img/profile-section.jpg);
   background-size: cover;
   border-radius: .3rem;
   box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.5);
