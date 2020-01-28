@@ -31,8 +31,7 @@ body {
   font-weight: 480;
   /*font-size: 1.6rem;*/
   line-height: 1.7;
-  color: #777;
-  padding: 3.0rem; }
+  color: #777; }
 
 .heading-primary {
   text-transform: uppercase;
@@ -45,12 +44,21 @@ body {
     display: block;
     letter-spacing: 5.5rem;
     animation: moveInleft 1s ease-out; }
+    @media (max-width: 56.25rem) {
+      .heading-primary--main {
+        font-size: 5rem; } }
+    @media (max-width: 37.5rem) {
+      .heading-primary--main {
+        font-size: 4rem; } }
   .heading-primary--sub {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 700;
     display: block;
     letter-spacing: .6rem;
     animation: moveInRight 1s ease-out; }
+    @media (max-width: 56.25rem) {
+      .heading-primary--sub {
+        letter-spacing: .5rem; } }
   .heading-primary--detail {
     font-size: 6.5rem;
     font-weight: 300;
@@ -66,6 +74,12 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   transition: all .2s; }
+  @media (max-width: 56.25rem) {
+    .heading-secondary {
+      font-size: 3rem; } }
+  @media (max-width: 37.5rem) {
+    .heading-secondary {
+      font-size: 2.5rem; } }
   .heading-secondary--1 {
     background-image: linear-gradient(to right bottom, #f7f7f7, #eee);
     -webkit-background-clip: text;
@@ -148,7 +162,11 @@ html {
       font-size: 75%; } }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 3.0rem; }
+  @media (max-width: 56.25rem) {
+    body {
+      padding: 0; } }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -868,7 +886,6 @@ button span:before, button span:after
 
 .header {
   margin-top: -3rem;
-  padding-top: 0;
   height: 100vh;
   background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.644), rgba(40, 180, 133, 0.658));
   background-size: cover;
@@ -893,6 +910,12 @@ button span:before, button span:after
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
+    @media (max-width: 56.25rem) {
+      .row:not(:last-child) {
+        margin-bottom: 6rem; } }
+  @media (max-width: 56.25rem) {
+    .row {
+      max-width: 50rem; } }
   .row::after {
     content: "";
     display: table;
@@ -901,6 +924,13 @@ button span:before, button span:after
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
+      @media (max-width: 56.25rem) {
+        .row [class^="col-"]:not(:last-child) {
+          margin-right: 0;
+          margin-bottom: 6rem; } }
+    @media (max-width: 56.25rem) {
+      .row [class^="col-"] {
+        width: 100% !important; } }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {

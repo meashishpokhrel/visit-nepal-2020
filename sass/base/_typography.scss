@@ -5,7 +5,7 @@ body{
     line-height: 1.7;
     color: $color-grey-dark;
     
-    padding: 3.0rem;
+    
 }
 .heading-primary{
     text-transform: uppercase;
@@ -19,13 +19,23 @@ body{
         display: block;
         letter-spacing: 5.5rem;
         animation: moveInleft 1s ease-out;
+        @include respond (tab-port){
+            font-size: 5rem;
+        }
+        @include respond (phone){
+            font-size: 4rem;
+        }
     }
     &--sub{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 700;
         display: block;
         letter-spacing: .6rem;
         animation: moveInRight 1s ease-out;
+
+        @include respond (tab-port){
+            letter-spacing: .5rem;
+        }
     }
     &--detail{
         
@@ -48,6 +58,13 @@ body{
     color: transparent;
     transition: all .2s;
 
+    @include respond(tab-port){
+        font-size: 3rem;
+    }
+
+    @include respond(phone){
+        font-size: 2.5rem;
+    }
     &--1{
         background-image: linear-gradient(to right bottom ,$color-grey-light-1,$color-grey-light-2);
         -webkit-background-clip: text;
