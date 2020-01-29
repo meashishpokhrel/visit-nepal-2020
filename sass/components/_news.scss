@@ -11,4 +11,7 @@
             //font-size: 12rem;
             padding: 3rem;
         }
+        @include respond(tab-port){
+            font-size: 1.5rem;
+        }
 }
