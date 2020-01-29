@@ -15,6 +15,10 @@
         background-color: rgba($color-white,.5);
         width: 80%;
         border-bottom: .3rem solid transparent;
+
+        @include respond (taab-port){
+            width: 100%;
+        }
         &--connect{
             width: 80%;
             border-radius: 2rem;

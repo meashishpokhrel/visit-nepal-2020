@@ -3,6 +3,18 @@
     width: auto;
     float: left;
     margin-top: 20px;
+
+    @include respond (tab-land){
+        padding: 1rem;
+    }
+    @include respond (tab-port){
+        //padding-left: -70rem;
+        margin-top: 5rem;
+    }
+
+    @include respond (phone){
+        text-align: center;
+    }
 }
 
 .logo-black { 
@@ -18,6 +30,14 @@
     float: right;
     list-style: none;
     margin-top: 5.5rem;
+    
+    @include respond (tab-land){
+        padding: 1rem;
+    }
+    @include respond(tab-port){
+        display: none;
+    }
+    
 }
 
 .main-nav li {
