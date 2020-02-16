@@ -235,6 +235,7 @@
         }
     }
 .section-detail{
+    
     background-color: $color-white;
     &--more-cards{
         background-color: $color-grey-light-1;
@@ -242,6 +243,8 @@
 }
     .detail-text{
         padding: 5rem 0;
+        
+        width: 100%;
     }
     .detail-ratings{
         padding-top: 45rem;
