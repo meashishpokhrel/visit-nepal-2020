@@ -1629,6 +1629,9 @@ button span:before, button span:after
   .detail-ratings--connect {
     padding-top: 0; }
 
+.section-currency {
+  background-color: #f7f7f7; }
+
 /*
 COLORS:
 
