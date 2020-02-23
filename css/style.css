@@ -213,6 +213,14 @@ body {
   .btn--green::after {
     background-color: #55c57a; }
 
+.btn--package {
+  color: transparent;
+  background-color: transparent;
+  padding: 0;
+  border-radius: none; }
+  .btn--package::after {
+    background-color: transparent; }
+
 .btn--card-detail {
   color: #777;
   background-color: #f7f7f7; }
@@ -653,6 +661,10 @@ button span:before, button span:after
     background-image: linear-gradient(to right, #7ed56f, #28b485);
     -webkit-background-clip: text;
     color: transparent; }
+    .feature-box__icon--package {
+      font-size: 4rem;
+      outline: none;
+      margin-bottom: 0; }
     @media (max-width: 56.25rem) {
       .feature-box__icon {
         margin-bottom: 0;
@@ -799,6 +811,13 @@ button span:before, button span:after
     background-color: rgba(153, 153, 153, 0.5);
     font-size: 2rem;
     cursor: pointer; }
+  .form__input--package {
+    width: 20%;
+    border-radius: 2rem;
+    background-color: rgba(153, 153, 153, 0.5);
+    font-size: 2rem;
+    cursor: pointer;
+    display: inline-block; }
   .form__input::-webkit-input-placeholder {
     color: #55c57a; }
   .form__input:focus {
@@ -818,6 +837,23 @@ button span:before, button span:after
   .form__label--connect {
     font-size: 2rem;
     margin-left: -20rem; }
+  .form__label--package {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    display: none; }
+
+.form__select {
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem;
+  font-family: inherit;
+  color: inherit;
+  outline: none;
+  border-radius: 2rem;
+  display: inline-block;
+  border: 1px solid #55c57a;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 15%;
+  border-bottom: .3rem solid; }
 
 .form__input:placeholder-shown + .form__label {
   opacity: 0;

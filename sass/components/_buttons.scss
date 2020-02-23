@@ -48,6 +48,15 @@
             background-color: $color-primary;
         }
     }
+    &--package{
+        color: transparent;
+        background-color: transparent;
+        padding: 0;
+        border-radius: none;
+        &::after{
+            background-color: transparent;
+        }
+    }
 
     &--card-detail{
         color: $color-grey-dark;

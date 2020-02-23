@@ -19,6 +19,12 @@
         background-image: linear-gradient(to right,$color-primary-light,$color-primary-dark);
         -webkit-background-clip: text;
         color: transparent;
+
+        &--package{
+            font-size: 4rem;
+            outline: none;
+            margin-bottom: 0;
+        }
         @include respond(tab-port){
             margin-bottom: 0;
             font-size: 4.5rem;
