@@ -12,6 +12,9 @@
   },
   "author": "ashish pokhrel",
   "license": "ISC",
+  "engines": {
+    "node": "12.16.3"
+},
   "bugs": {
     "url": "https://github.com/meashishpokhrel/visit-nepal-2020/issues"
   },
